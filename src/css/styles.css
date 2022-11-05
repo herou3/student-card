@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Times New Roman', sans-serif;
+    color: #fff;
+    background-color: rgb(140, 140, 255);
+}
+
+h1 {
+    padding: 20px 20px;
+    color: #151D1A;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    padding: 10px 10px;
+    font-weight: bold;
+    color: #151D1A;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.main-title {
+    display: block;
+    margin: auto;
+}
+
+.info {
+    color: #151D1A;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.avatar {
+    border-radius: 10%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.4);
+    display: inline;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.card {
+    margin-top: 20px;
+    color: #151D1A;
+    background-color: rgba(72, 101, 146, 0.5);
+    padding: 16px;
+    border: 2px solid #4A578B;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.4);
+}
+
+.card>h2 {
+    text-align: center;
+}
+
+.card>ul {
+    list-style-type: circle;
+    padding: 0 2rem;
+}
+
+.card ul li {
+    margin: 0 0 0.25rem 0;
+}
+
+.image-block, .card-main  {
+    display: flex;
+    vertical-align: top;
+}
+
+.card table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.card table td {
+    text-align: left;
+    padding: 0.25rem 0.75rem;;
+}
+
+.card thead {
+    font-weight: bold;
+    margin: 5px 5px;
+}
+
+.card thead th {
+    padding: 5px 5px;
+}
+
+.card thead tr {
+    border-bottom: 2px solid #151D1A;
+}
+
+.card .table-courses td {
+    text-align: center;
+}
+
+.table-courses a {
+    color: #151D1A;
+}
+
+.contacts {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact .icon {
+    width: 100px;
+    height: 100px;
+}
+
+.contact {
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+}
+
+.contact:last-child {
+    margin-left: 20px;
+}
+
+.contact a {
+    color: #151D1A;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 75%;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #6FA7BC;
+}
+
+a:visited {
+    color: #151D1A;
+}
+
+@media (max-width: 500px) {
+    .image-block, .card-main  {
+        display: block;
+        text-align: center;
+    }
+
+    .contact {
+        display: block;
+    }
+
+    .contact:last-child {
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+}
